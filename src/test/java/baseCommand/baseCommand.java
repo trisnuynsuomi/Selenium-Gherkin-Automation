@@ -9,7 +9,7 @@ public class baseCommand {
     public static WebDriver driver;
 
     public void openDriver() {
-        boolean headless = Boolean.parseBoolean(System.getProperty("headless", "true"));
+        boolean headless = Boolean.parseBoolean(System.getProperty("headless", "false"));
         ChromeOptions options = new ChromeOptions();
         if (headless) {
             options.addArguments("--headless");
