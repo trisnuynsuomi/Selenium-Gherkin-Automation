@@ -8,7 +8,7 @@ Feature: Verify headers
     And I want to close Browser
     Examples:
       | header          |
-      | a               |
+      | canhaumei               |
       | Home            |
       | Products        |
       | Cart            |
