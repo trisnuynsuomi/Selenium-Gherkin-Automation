@@ -3,10 +3,7 @@ package baseCommand;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.support.ui.*;
 import org.testng.Assert;
-
-import java.time.Duration;
 
 public class baseCommand {
     public static WebDriver driver;
