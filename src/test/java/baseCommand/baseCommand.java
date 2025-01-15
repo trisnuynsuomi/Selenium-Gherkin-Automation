@@ -27,7 +27,7 @@ public class baseCommand {
     }
 
     public WebElement getElement(By by){
-        WebElement element = drive.findElement(by);
+        WebElement element = driver.findElement(by);
         this.scrollToElement(element);
         return element;
     }
