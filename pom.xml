@@ -25,8 +25,6 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
-                    <parallel>methods</parallel>
-                    <threadCount>10</threadCount>
                 </configuration>
             </plugin>
         </plugins>
@@ -72,6 +70,13 @@
             <version>4.27.0</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.9.2</version>
+        </dependency>
+
     </dependencies>
 
 </project>
