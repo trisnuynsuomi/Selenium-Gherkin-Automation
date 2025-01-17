@@ -8,8 +8,7 @@ import org.testng.Assert;
 import java.util.Random;
 
 public class signUpPage {
-    baseCommand baseCommand = new baseCommand();
-    Faker faker = new Faker();
+
 
     String signUpNameField = "[data-qa=\"signup-name\"]";
     String preSignUpEmailField = "[data-qa=\"signup-email\"]";
@@ -32,6 +31,9 @@ public class signUpPage {
     String accountCreatedBanner = "[data-qa=\"account-created\"]";
     String continueButton = "[data-qa=\"continue-button\"]";
 
+
+    baseCommand baseCommand = new baseCommand();
+    Faker faker = new Faker();
 
     protected String getSaltString() {
         String SALTCHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
